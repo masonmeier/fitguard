@@ -67,9 +67,9 @@ class Clients extends Component {
 
                             <div className="testimonial-box text-center">
                                 <h1>Our Clients</h1>
-                                <h4>Fitguard has always been accommodating when scheduling our appointments. All of their service techs are prompt, efficient and have a good depth of knowledge on fitness equipment. We definitely do not hesitate in calling Fitguard with any of our equipment needs, whether big or small"</h4>
+                                <h4>"Fitguard has always been accommodating when scheduling our appointments. All of their service techs are prompt, efficient and have a good depth of knowledge on fitness equipment. We definitely do not hesitate in calling Fitguard with any of our equipment needs, whether big or small"</h4>
                                 <img src={testimony} className="testi-user rounded-circle" alt="testimonials-user"/>
-                                <p>-San Francisco Giants</p>
+                                <p>-San Francisco Giants Training Team</p>
                                 <p>
                                     <span className="ti-star text-warning mr-1"></span>
                                     <span className="ti-star text-warning mr-1"></span>

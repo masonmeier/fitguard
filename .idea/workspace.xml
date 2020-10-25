@@ -1,13 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="830212b8-8b4f-4fe7-aff5-0439662791fc" name="Default Changelist" comment="" />
+    <list default="true" id="830212b8-8b4f-4fe7-aff5-0439662791fc" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/favicon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Contact/InstallContact.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Contact/ServiceContact.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ContactNav/ContactNav.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/img-1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/img-1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Clients/clients.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Clients/clients.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Contact/contact.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Contact/contact.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Cta/Cta.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Cta/Cta.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Navbar/Navbar_Page.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navbar/Navbar_Page.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/landing-page/LandingPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/landing-page/LandingPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1j7HKHwwiPR5lSyhp45zrNQ355f" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -15,8 +37,9 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/assets/images" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/Contact" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -28,9 +51,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\minip\Desktop\Code\React\Fitguard\public" />
       <recent name="C:\Users\minip\Desktop\Code\React\Fitguard\src\assets" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\minip\Desktop\Code\React\Fitguard\src\components\Contact" />
       <recent name="C:\Users\minip\Desktop\Code\React\Fitguard\src\assets\images" />
     </key>
   </component>
@@ -46,6 +71,13 @@
       <updated>1603148144887</updated>
       <workItem from="1603148149168" duration="12691000" />
       <workItem from="1603229236246" duration="11091000" />
+      <workItem from="1603257063210" duration="2277000" />
+      <workItem from="1603276461547" duration="631000" />
+      <workItem from="1603309276795" duration="17263000" />
+      <workItem from="1603350417581" duration="275000" />
+      <workItem from="1603406269667" duration="3901000" />
+      <workItem from="1603483164343" duration="7088000" />
+      <workItem from="1603586688799" duration="1883000" />
     </task>
     <servers />
   </component>
@@ -69,10 +101,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="1899" height="264" key="GridCell.Tab.0.right/0.0.1920.1050/1920.0.1536.864@0.0.1920.1050" timestamp="1603148213308" />
-    <state x="1204" y="299" width="631" height="568" key="find.popup" timestamp="1603233129025">
+    <state x="851" y="190" width="1022" height="568" key="find.popup" timestamp="1603411076890">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="851" y="190" width="1022" height="568" key="find.popup/0.0.1920.1050/1920.0.1536.864@0.0.1920.1050" timestamp="1603158446006" />
+    <state x="851" y="190" width="1022" height="568" key="find.popup/0.0.1920.1050/1920.0.1536.864@0.0.1920.1050" timestamp="1603411076890" />
     <state x="1204" y="299" width="631" height="568" key="find.popup/0.0.1920.1050/1920.0.1536.864@1920.0.1536.864" timestamp="1603233129025" />
     <state width="600" height="440" key="javadoc.popup" timestamp="1603154597287">
       <screen x="1920" y="0" width="1536" height="864" />

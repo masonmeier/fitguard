@@ -14,11 +14,10 @@ class LandingPage extends Component {
         super(props);
         this.state = {
             navItems : [
-                { id: 1 , idnm : "home", navheading: "Home" },
-                { id: 2 , idnm : "services", navheading: "Services" },
-                { id: 3 , idnm : "parts", navheading: "Parts" },
-                { id: 4 , idnm : "team", navheading: "Team" },
-                { id: 5 , idnm : "contact", navheading: "Contact" },
+                { id: 1 , idnm : "home", navheading: "Home", to : "" },
+                { id: 2 , idnm : "services", navheading: "Services", to : "" },
+                { id: 3 , idnm : "parts", navheading: "Parts", to : "" },
+                { id: 5 , idnm : "contact", navheading: "Contact", to : "" },
             ],
             pos : document.documentElement.scrollTop,
             imglight : true,
@@ -75,9 +74,6 @@ class LandingPage extends Component {
 
                     {/* Importing clients */}
                     <Clients/>
-
-                    {/* Importing team */}
-                    <OurTeam/>
 
                     {/* Importing counter */}
                     <Cta/>

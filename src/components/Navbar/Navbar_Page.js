@@ -29,7 +29,7 @@ class NavbarPage extends Component {
 
     toggle = () => {
         this.setState({ isOpenMenu: !this.state.isOpenMenu });
-    }
+    };
     
     render() {
             //Store Navigationbar Id into TargetID variable(Used for Scrollspy)
@@ -61,11 +61,23 @@ class NavbarPage extends Component {
                                         <Nav navbar className="ml-auto navbar-center" id="mySidenav">
                                             {this.props.navItems.map((item, key) => (
                                                 <NavItem key={key}>
-                                                    <NavLink href={"#" + item.idnm} className={item.navheading === "Home" ? "active" : "" } > {item.navheading}</NavLink>
+                                                    <NavLink href={item.to + "#" + item.idnm} className={item.navheading === "Home" ? "active" : "" } > {item.navheading}</NavLink>
                                                 </NavItem>
-                                            ))} 
+                                            ))}
                                         </Nav>
                                     </ScrollspyNav>
+
+                                      <div id="install-link-nav" className="navbar-collapse">
+                                        <ul className="ml-auto navbar-center navbar-nav" id="install-link">
+                                          <NavItem>
+                                            <NavLink href="/install">Request Install</NavLink>
+                                          </NavItem>
+                                          <NavItem>
+                                            <NavLink href="/service">Request Service</NavLink>
+                                          </NavItem>
+                                        </ul>
+                                      </div>
+
                                     </Collapse>
                                 </Container>
                             </Navbar>

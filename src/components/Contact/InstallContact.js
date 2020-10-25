@@ -2,12 +2,10 @@ import React, { Component } from "react";
 import { Container, Row, Col } from "reactstrap";
 import { AvForm, AvField } from "availity-reactstrap-validation";
 import { Animated } from "react-animated-css";
+import ContactNav from '../ContactNav/ContactNav';
 import emailjs from 'emailjs-com';
 
-// import { init } from 'emailjs-com';
-// init("user_bD0lzpC8UkzqWACfBTcLR");
-
-class GetInTouch extends Component {
+class installContact extends Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -16,14 +14,17 @@ class GetInTouch extends Component {
       subject: "",
       comments: "",
       msgSendSuccess: false,
-      templateID: 'template_69zxfmk',
+      templateID: 'template_dq6urwc',
       userID: 'user_bD0lzpC8UkzqWACfBTcLR',
-      serviceID: "service_dbqj5sp",
+      serviceID: "fitguardservice2.0",
+      navItems : [
+        { id: 1 , idnm : "Home", navheading: "Home" },
+      ],
     };
   }
 
   handleSubmit = () => {
-    this.sendRequest(this.state.serviceID, this.state.templateID, {message: this.state.comments, from_name: this.state.firstname, reply_to: this.state.email}, this.state.userID);
+    this.sendInstallRequest(this.state.serviceID, this.state.templateID, {message_html: this.state.comments, from_name: this.state.firstname, reply_to: this.state.email}, this.state.userID);
     let emailPattern = new RegExp(/^[a-zA-Z0-9\.]+@[a-zA-Z0-9]+\.[A-Za-z]+$/);
     if (
       this.state.firstname !== "" &&
@@ -32,9 +33,7 @@ class GetInTouch extends Component {
       this.state.subject !== "" &&
       this.state.comments !== ""
     ) {
-      this.setState({ msgSendSuccess: true }, ()=> {
-        console.log(this.state.msgSendSuccess, "msg test");
-      } );
+      this.setState({ msgSendSuccess: true });
       this.myFormRef.reset();
 
       setTimeout(() => {
@@ -54,14 +53,11 @@ class GetInTouch extends Component {
     this.setState({ [name]: value });
   };
 
-  sendRequest (serviceID, templateID, variables, userID) {
-    console.log("variables", variables);
-
+  sendInstallRequest (serviceID, templateID, variables, userID) {
     emailjs.send(
       serviceID, templateID, variables, userID
     ).then(res => {
       console.log('Email successfully sent!')
-
     })
       // Handle errors here however you like, or use a React error boundary
       .catch(err => console.error('Oh well, you failed. Here some thoughts on the error that occured:', err))
@@ -72,11 +68,14 @@ class GetInTouch extends Component {
     return (
       <React.Fragment>
         <section className="section" id="contact">
+          <ContactNav navItems={this.state.navItems} navclassName={this.state.navClass} />
+
           <Container>
             <Row>
               <Col sm="12">
+                <a id="install"/>
                 <div className="title-box text-center">
-                  <h2>Have any questions?</h2>
+                  <h2>Need Something Installed or Moved?</h2>
                 </div>
               </Col>
             </Row>
@@ -99,7 +98,7 @@ class GetInTouch extends Component {
               <Col sm="4">
                 <div className="contact-footer-box text-center">
                   <i className="ti-email"></i>
-                  <h5>customerservice@fitguard.com</h5>
+                  <h5>install@fitguard.com</h5>
                 </div>
               </Col>
             </Row>
@@ -215,4 +214,4 @@ class GetInTouch extends Component {
   }
 }
 
-export default GetInTouch;
+export default installContact;
