@@ -985,6 +985,13 @@ h6 {
 /*======= 16.Responsive ======*/
 
 @media (min-width: 200px) and (max-width: 768px) {
+  .ti-arrow-circle-left {
+    display: none;
+  }
+
+  .ti-arrow-circle-right {
+    display: none;
+  }
 
   .navbar-custom {
       background-color: #fff !important;
