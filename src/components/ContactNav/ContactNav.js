@@ -30,12 +30,6 @@ class ContactNav extends Component {
   };
 
   render() {
-    //Store Navigationbar Id into TargetID variable(Used for Scrollspy)
-    let targetId = this.props.navItems.map((item) => {
-      return(
-        item.idnm
-      )
-    });
     return (
       <React.Fragment>
         <StickyHeader

@@ -1,38 +1,38 @@
 import React, { Component } from 'react';
-import { Link } from "react-router-dom";
-import { Container, Row, Col } from "reactstrap";
+// import { Link } from "react-router-dom";
+// import { Container, Row, Col } from "reactstrap";
 
 //Import Logo
-import logo from "../../assets/images/logo.jpg";
+// import logo from "../../assets/images/logo.jpg";
 
 //Import Footer link
 import FooterLinks from "./footer-links";
-import LinkSection from "./link-section";
+// import LinkSection from "./link-section";
 
 class Footer extends Component {
     state = {
-        links1 : [
-            { link : "#", title : "Web Design" },
-            { link : "#", title : "Graphic Design" },
-            { link : "#", title : "Power & Energy" },
-            { link : "#", title : "Solar Power" },
-            { link : "#", title : "Green energy" },
-        ],
-        links2 : [
-            { link : "#", title : "About Us" },
-            { link : "#", title : "Help & Support" },
-            { link : "#", title : "Privacy Policy" },
-            { link : "#", title : "Terms & Conditions" },
-            { link : "#", title : "FAQ" },
-        ],
-        socials : [
-            { class : "bg-twitter", icon : "ti-twitter-alt", link : "#" },
-            { class : "bg-dribbble", icon : "ti-dribbble", link : "#" },
-            { class : "bg-linkedin", icon : "ti-linkedin", link : "#" },
-            { class : "bg-googleplus", icon : "ti-google", link : "#" },
-            { class : "bg-facebook", icon : "ti-facebook", link : "#" },
-        ]
-    }
+        // links1 : [
+        //     { link : "#", title : "Web Design" },
+        //     { link : "#", title : "Graphic Design" },
+        //     { link : "#", title : "Power & Energy" },
+        //     { link : "#", title : "Solar Power" },
+        //     { link : "#", title : "Green energy" },
+        // ],
+        // links2 : [
+        //     { link : "#", title : "About Us" },
+        //     { link : "#", title : "Help & Support" },
+        //     { link : "#", title : "Privacy Policy" },
+        //     { link : "#", title : "Terms & Conditions" },
+        //     { link : "#", title : "FAQ" },
+        // ],
+        // socials : [
+        //     { class : "bg-twitter", icon : "ti-twitter-alt", link : "#" },
+        //     { class : "bg-dribbble", icon : "ti-dribbble", link : "#" },
+        //     { class : "bg-linkedin", icon : "ti-linkedin", link : "#" },
+        //     { class : "bg-googleplus", icon : "ti-google", link : "#" },
+        //     { class : "bg-facebook", icon : "ti-facebook", link : "#" },
+        // ]
+    };
     render() {
         return (
             <React.Fragment>

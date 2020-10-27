@@ -24,7 +24,7 @@ class GetInTouch extends Component {
 
   handleSubmit = () => {
     this.sendRequest(this.state.serviceID, this.state.templateID, {message: this.state.comments, from_name: this.state.firstname, reply_to: this.state.email}, this.state.userID);
-    let emailPattern = new RegExp(/^[a-zA-Z0-9\.]+@[a-zA-Z0-9]+\.[A-Za-z]+$/);
+    let emailPattern = new RegExp(/^[a-zA-Z0-9.]+@[a-zA-Z0-9]+\.[A-Za-z]+$/);
     if (
       this.state.firstname !== "" &&
       this.state.email !== "" &&

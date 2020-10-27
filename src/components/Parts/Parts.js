@@ -42,7 +42,7 @@ class Parts extends Component {
 
             <Row className="vertical-content features">
                 <Col sm="4">
-                    <img src={parts} className="img-fluid" alt="parts image"/>
+                    <img src={parts} className="img-fluid" alt="parts"/>
                 </Col>
                 <Col sm={{size:6, offset : 1}}>
 

@@ -25,7 +25,7 @@ class installContact extends Component {
 
   handleSubmit = () => {
     this.sendInstallRequest(this.state.serviceID, this.state.templateID, {message_html: this.state.comments, from_name: this.state.firstname, reply_to: this.state.email}, this.state.userID);
-    let emailPattern = new RegExp(/^[a-zA-Z0-9\.]+@[a-zA-Z0-9]+\.[A-Za-z]+$/);
+    let emailPattern = new RegExp(/^[a-zA-Z0-9.]+@[a-zA-Z0-9]+\.[A-Za-z]+$/);
     if (
       this.state.firstname !== "" &&
       this.state.email !== "" &&
@@ -73,7 +73,6 @@ class installContact extends Component {
           <Container>
             <Row>
               <Col sm="12">
-                <a id="install"/>
                 <div className="title-box text-center">
                   <h2>Need Something Installed or Moved?</h2>
                 </div>

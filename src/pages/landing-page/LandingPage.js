@@ -4,10 +4,10 @@ const Section = React.lazy(() => import('./LandingBanner'));
 const Parts = React.lazy(() => import('../../components/Parts/Parts'));
 const Services = React.lazy(() => import('../../components/Services/services'));
 const Clients = React.lazy(() => import('../../components/Clients/clients'));
-const OurTeam = React.lazy(() => import('../../components/Team/our-team'));
 const Cta = React.lazy(() => import('../../components/Cta/Cta'));
 const Contact = React.lazy(() => import('../../components/Contact/contact'));
 const Footer = React.lazy(() => import('../../components/Footer/footer'));
+// const OurTeam = React.lazy(() => import('../../components/Team/our-team'));
 
 class LandingPage extends Component {
     constructor(props) {
