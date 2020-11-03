@@ -66,18 +66,6 @@ class NavbarPage extends Component {
                                             ))}
                                         </Nav>
                                     </ScrollspyNav>
-
-                                      <div id="install-link-nav" className="navbar-collapse">
-                                        <ul className="ml-auto navbar-center navbar-nav" id="install-link">
-                                          <NavItem>
-                                            <NavLink href="/install">Request Install</NavLink>
-                                          </NavItem>
-                                          <NavItem>
-                                            <NavLink href="/service">Request Service</NavLink>
-                                          </NavItem>
-                                        </ul>
-                                      </div>
-
                                     </Collapse>
                                 </Container>
                             </Navbar>
